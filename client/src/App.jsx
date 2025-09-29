@@ -1,8 +1,10 @@
 /* Entry app */
 
+import Router from "./navigation/Router";
+
 function App() {
   return (
-    <h1>Welcome to Nubo</h1>
+    <Router />
   );
 }
 
