@@ -1,0 +1,19 @@
+/* styles for login page */
+
+.login-container {
+    width: 100%;
+    height: 100dvh;
+    align-content: center;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: calc(1vw + 1vh);
+    width: 35%;
+    height: 50%;
+    border: 1px solid var(--border-glass-color);
+    border-radius: 12px;
+}
