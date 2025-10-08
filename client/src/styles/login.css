@@ -11,9 +11,14 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    padding: calc(1vw + 1vh);
+    padding: 0 5vw;
     width: 35%;
-    height: 50%;
+    height: 45%;
     border: 1px solid var(--border-glass-color);
     border-radius: 12px;
+    background-color: var(--glass-color);
+}
+
+.login-container form button {
+    background-color: var(--green-color);
 }
